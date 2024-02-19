@@ -30,8 +30,8 @@ class Merging implements Imerge {
         return array;
     }
 
-    merge(collection_1: number[], collection_2: number[]) : number[] {
-        let sum = [...collection_1, ...collection_2];
+    merge(collection_1: number[], collection_2: number[],collection_3: number[]) : number[] {
+        let sum = [...collection_1, ...collection_2,...collection_3];
         return this.quickSort(sum,0,sum.length-1);
     }
 
