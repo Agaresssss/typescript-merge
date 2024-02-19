@@ -15,4 +15,4 @@ $ npm install or yarn add
 $ npm test or yarn test
 ```
 
-author phuettipol j
+**Phuettipol J.**
